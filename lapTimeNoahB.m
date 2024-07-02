@@ -4,4 +4,4 @@ function [lapTime] = lapTimeNoahB(c,theta,speed)
     %sin(theta) .* c = radius
     radius = sind(theta).*c
     circumference = 2 .*pi .*radius
-    lapTime = circumference/speed/60
+    lapTime = round((circumference./speed).*60,2)
