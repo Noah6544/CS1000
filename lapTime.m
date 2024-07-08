@@ -1,4 +1,4 @@
-function [lapTime] = lapTimeNoahB(c,theta,speed)
+function [lapTime] = lapTime(c,theta,speed) %redacted the function name
     %need length of red piece to find circumference
     %sin(theta) = opposite/hyp
     %sin(theta) .* c = radius
